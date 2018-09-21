@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 const Home = () => import('../views/Home/index')
 const HomeVue = () => import('../views/Home/home.vue')
-
+const PageA = () => import('./pageA')
 Vue.use(Router)
 
 export default new Router({
@@ -15,5 +15,6 @@ export default new Router({
       path: '/home',
       component: HomeVue,
     },
+    PageA,
   ],
 })

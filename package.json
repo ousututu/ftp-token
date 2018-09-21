@@ -43,12 +43,12 @@
     "js-md5": "^0.7.3",
     "promise-polyfill": "^6.0.2",
     "vue": "^2.5.16",
-    "vue-eslint-parser": "^3.2.2",
     "vue-router": "^2.0.0",
     "vuex": "^2.0.0",
     "vuex-router-sync": "^4.0.0"
   },
   "devDependencies": {
+    "vue-eslint-parser": "^3.2.2",
     "http-proxy-middleware": "^0.17.4",
     "babel-runtime": "^6.18.0",
     "autoprefixer": "^8.6.0",

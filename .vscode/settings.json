@@ -42,5 +42,6 @@
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "eslint.enable": true
 }

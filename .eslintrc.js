@@ -3,6 +3,11 @@ module.exports = {
     './.eslintrc.base.js',
   ],
   parser: 'vue-eslint-parser',
+  "parserOptions": {
+      "parser": "babel-eslint",
+      "sourceType": "module",
+      "allowImportExportEverywhere": true
+  },
   plugins: [
     'vue',
   ],
